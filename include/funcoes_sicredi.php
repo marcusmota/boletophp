@@ -55,8 +55,8 @@ $filler2 = 0;
 // Byte de Identificação do cedente 1 - Cooperativa; 2 a 9 - Cedente
 $byteidt = $dadosboleto["byte_idt"];
 
-// Codigo referente ao tipo de cobrança: "3" - SICREDI
-$tipo_cobranca = 3;
+// Codigo referente ao tipo de cobrança: "3" - sem registro e "1" com registro
+$tipo_cobranca = $dadosboleto["tipo_cobranca"];
 
 // Codigo referente ao tipo de carteira: "1" - Carteira Simples 
 $tipo_carteira = 1;
